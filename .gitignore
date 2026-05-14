@@ -1,0 +1,27 @@
+# Бинарники и объектные файлы
+*.o
+*.exe
+*.out
+*.bin
+heap_fixed
+heap_vuln
+stack_fixed
+stack_vuln
+format_vuln
+fixed_format
+race_vuln
+fixed_race
+tainted_vuln
+fixed_tainted
+int_overflow
+int_fixed
+leak_vuln
+leak_fixed
+
+# Временные файлы
+/tmp/
+*.log
+
+# Python
+__pycache__/
+*.pyc
